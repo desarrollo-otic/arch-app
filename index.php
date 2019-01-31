@@ -32,7 +32,7 @@
 <br>
 <div class="container">
 	<!--<h1 class="page-header text-center">Sistema de Ingreso de Datos</h1>-->
-	<div class="row panel panel-default col-sm-10 col-sm-offset-1">
+	<div class="row panel panel-default col-sm-12 ">
 		<div class="col-sm-12">
 			<div class="row">
 			<?php
