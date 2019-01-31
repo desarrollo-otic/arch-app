@@ -31,8 +31,7 @@
 </div>
 <br>
 <div class="container">
-	<!--<h1 class="page-header text-center">Sistema de Ingreso de Datos</h1>-->
-	<div class="row panel panel-default col-sm-12 ">
+	<div class="row panel panel-default col-sm-12">
 		<div class="col-sm-12">
 			<div class="row">
 			<?php
@@ -114,7 +113,7 @@
 
 <div class="footer">
 
-  <hr class="col-sm-offset-1" style="border-color:black; width:85%;">
+  <hr class="col-sm-offset-1 col-xs-offset-1 " style="border-color:black; width:85%;">
   <b><p class="text-center"> 2019 - Secretaría de Salud del Estado Zulia </p> 
   <p class="text-center">R.I.F.: G-200048492</p></b>
 
