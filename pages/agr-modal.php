@@ -15,7 +15,7 @@
 						<label class="control-label modal-label">Nombre y Apellido:</label>
 					</div>
 					<div class="col-sm-8">
-						<input type="text" class="form-control" name="nom_ape" required>
+						<input type="text" class="form-control" name="nom_ape" placeholder="Ingresar el nombre y apellido..." required>
 					</div>
 				</div>
 				<div class="row form-group">
@@ -23,7 +23,7 @@
 						<label class="control-label modal-label">Cédula:</label>
 					</div>
 					<div class="col-sm-8">
-						<input type="number" min="0" max="99999999" pattern="[1-9]{8}" class="form-control" id="cedula" name="cedula" required>
+						<input type="number" min="0" max="99999999" pattern="[1-9]{8}" class="form-control" id="cedula" name="cedula" placeholder="Ingresar el número de cédula..." required>
 					</div>	
 				</div>
 				
