@@ -1,0 +1,42 @@
+
+body{
+     background-color: #f5f5f0;
+}
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 100px; /* .push must be the same height as .footer */
+}
+
+.height10{
+    height:10px;
+}
+.mtop10{
+    margin-top:10px;
+}
+.modal-label{
+    position:relative;
+    top:7px
+}
+
+@font-face {
+    font-family: 'harabara_maisharabaramaisdemo';
+    src: url('../fonts/harabara_mais_demo-webfont.woff2') format('woff2'),
+         url('../fonts/harabara_mais_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 { font-family: 'harabara_maisharabaramaisdemo', Arial, sans-serif; }
