@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Secretaría De Salud del Estado Zulia | Sistema de Ingreso de Datos para Archivo</title>
+	<title>Secretaría de Salud del Estado Zulia | Sistema de Ingreso de Datos para Archivo</title>
 	
     <!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="plugins/bootstrap/css/bootstrap.min.css">
@@ -149,8 +149,8 @@ $(document).ready(function(){
   var input = document.getElementById('cedula');
 
   input.oninvalid = function(event) {
-    event.target.setCustomValidity('La cédula no debe contener más de 8 carácteres.');
-  }
+      event.target.setCustomValidity('La cédula no debe contener más de 8 carácteres.');
+ }
 
 </script>
     

@@ -5,7 +5,6 @@
 	if(isset($_GET['id'])){
 		$sql = "DELETE FROM registros WHERE id = '".$_GET['id']."'";
 
-		//use for MySQLi OOP
 		if($conn->query($sql)){
 			$_SESSION['success'] = 'Registro eliminado exitosamente.';
 		}

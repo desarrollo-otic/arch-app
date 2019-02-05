@@ -14,8 +14,7 @@
 			</tr>
 			";
 		}
-
-		
+	
 		return $contents;
 	}
 

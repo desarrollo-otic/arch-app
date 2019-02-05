@@ -24,7 +24,7 @@
 						<label class="control-label modal-label">Cédula:</label>
 					</div>
 					<div class="col-sm-8">
-						<input type="number" min="0" max="99999999" pattern="[1-9]{8}" class="form-control" id="cedula" name="cedula" value="<?php echo $row['cedula']; ?>" placeholder="Ingresar el número de cédula...">
+						<input type="number" min="0" max="99999999" pattern="[0-9]{8}" class="form-control" id="cedula" name="cedula" value="<?php echo $row['cedula']; ?>" placeholder="Ingresar el número de cédula...">
 					</div>
 				</div>
 				
@@ -46,7 +46,7 @@
         <div class="modal-content">
             <div class="modal-header" style="background-color:#3399ff;">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h3 class="modal-title" style="color:white;" id="myModalLabel"> <b> Eliminar Registro </b></h3>
+                <h3 class="modal-title" style="color:white;" id="myModalLabel"><b> Eliminar Registro </b></h3>
             </div>
             <div class="modal-body">	
             	<br><h4 class="text-center">¿Está seguro de eliminar este registro?</h4><br>
